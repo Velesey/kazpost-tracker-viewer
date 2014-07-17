@@ -4,7 +4,7 @@ var elementDetails = document.getElementsByClassName('detail')[2];
 var xhr = new XMLHttpRequest();
 xhr.open("GET", 'http://kazpost.kz/ru/requests/tracking/' + elementNum.innerHTML, true);
 xhr.onreadystatechange = function() {
-	if (xhr.readyState == 4) // если всё прошло хорошо, выполняем, что в скобках
+	if (xhr.readyState == 4)  
 	{
 		var str = xhr.responseText;
 		var posStart = str.indexOf('maintext courier">');
