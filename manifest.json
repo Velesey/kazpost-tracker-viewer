@@ -1,0 +1,21 @@
+{ 
+	"manifest_version": 2,
+  "name": "Tracker viewer",
+  "version": "1.0",
+  "description": "Kazpost track viewer",
+
+  "permissions": [
+    "tabs",
+    "http://*/"
+  ],
+
+  "browser_action": {
+  },
+
+   "content_scripts": [
+    {
+      "matches": [ "http://trade.aliexpress.com/order_detail.htm*" ],
+      "js": [ "content.js" ]
+    }
+  ]
+}
