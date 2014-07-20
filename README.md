@@ -4,6 +4,5 @@ kazpost-tracker-viewer
 
 Функционал доступен для 
 
-aliexpress.com
-
-dx.com
+* aliexpress.com
+* dx.com
