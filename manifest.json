@@ -15,7 +15,11 @@
    "content_scripts": [
     {
       "matches": [ "http://trade.aliexpress.com/order_detail.htm*" ],
-      "js": [ "content.js" ]
+      "js": [ "contentAli.js" ]
+    },
+    {
+      "matches": [ "https://my.dx.com/MyOrders/OrderDetail/*" ],
+      "js": [ "contentDX.js" ]
     }
   ]
 }
